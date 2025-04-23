@@ -1,0 +1,36 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 30%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888;
+    padding: 10px;
+}
+
